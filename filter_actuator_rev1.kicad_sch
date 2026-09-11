@@ -6724,12 +6724,6 @@
 		(uuid "c1a9c402-9c92-4db4-ab36-068ebc6ca3d5")
 	)
 	(junction
-		(at 364.49 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1fdb04b-b34b-402a-b082-ba8f0b3bc0b7")
-	)
-	(junction
 		(at 327.66 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8383,16 +8377,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 95.25) (xy 364.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5749299c-b57e-499b-bf71-9c98397fce6b")
-	)
-	(wire
-		(pts
 			(xy 344.17 54.61) (xy 344.17 63.5)
 		)
 		(stroke
@@ -8680,16 +8664,6 @@
 			(type default)
 		)
 		(uuid "6f592294-b0fb-43fd-8ab5-68b4ecb31842")
-	)
-	(wire
-		(pts
-			(xy 364.49 95.25) (xy 405.13 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72622a2e-2729-4b7d-9383-5a7e04d12a91")
 	)
 	(wire
 		(pts
@@ -9453,6 +9427,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 95.25) (xy 405.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9452119-ea62-44f7-95f1-a343343f70d7")
+	)
+	(wire
+		(pts
 			(xy 306.07 80.01) (xy 334.01 80.01)
 		)
 		(stroke
@@ -9840,6 +9824,16 @@
 			(type default)
 		)
 		(uuid "c6cea8bf-1dcc-4b04-ab97-6d9c28742894")
+	)
+	(wire
+		(pts
+			(xy 162.56 149.86) (xy 187.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8843bcc-e99a-4291-9ad1-aa630e15d64d")
 	)
 	(wire
 		(pts
@@ -10651,15 +10645,25 @@
 		)
 		(uuid "08661d81-6bef-4563-9a7e-a89fd943c1f6")
 	)
-	(label "BUT_POS1"
-		(at 168.91 90.17 0)
+	(label "POS4"
+		(at 181.61 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0e191fdd-5bc5-4988-bf4b-84df25030f9f")
+		(uuid "09aa3dda-c20b-42a9-a28e-eb3d29d2e08d")
+	)
+	(label "BUT_POS3"
+		(at 204.47 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0df690f2-be13-4c11-8acc-97aa0a5ae15b")
 	)
 	(label "LMT_SW"
 		(at 181.61 154.94 0)
@@ -10671,6 +10675,16 @@
 		)
 		(uuid "0e95310d-65e2-47b3-8ee2-9670283aa3a0")
 	)
+	(label "MP6602_nFAULT"
+		(at 173.99 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11696f04-48f4-4ac0-988d-45080d244e03")
+	)
 	(label "nRST"
 		(at 39.37 223.52 0)
 		(effects
@@ -10680,16 +10694,6 @@
 			(justify left bottom)
 		)
 		(uuid "12666e45-7ac8-44d1-a4dd-22ac138d65f9")
-	)
-	(label "POS2"
-		(at 210.82 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1621be6f-2547-4960-bdab-7eae4d4988c5")
 	)
 	(label "CP_RXD"
 		(at 71.12 195.58 0)
@@ -10701,45 +10705,25 @@
 		)
 		(uuid "1b8cc5ca-c285-49a6-b082-fe6c51375da1")
 	)
-	(label "BUT_POS3"
-		(at 237.49 91.44 0)
+	(label "MP6602_SLEEP"
+		(at 175.26 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1eb68ec6-d66a-41ff-8efa-4750df6aec7a")
+		(uuid "20d51d44-44bc-4069-8480-7ffd352172df")
 	)
-	(label "BUT_POS4"
-		(at 101.6 175.26 0)
+	(label "POS2"
+		(at 182.88 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "238230fc-4887-4406-9c96-4544cf007b26")
-	)
-	(label "LIM_A"
-		(at 181.61 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26dd326f-6922-4b00-840f-7da3d326b6ee")
-	)
-	(label "BUT_POS2"
-		(at 204.47 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34d875cc-b084-4a12-a9f9-4a5045ff2932")
+		(uuid "2202a525-c48e-4846-8229-52d894b75aac")
 	)
 	(label "LIM_B"
 		(at 181.61 186.69 0)
@@ -10771,16 +10755,6 @@
 		)
 		(uuid "3cbca4d2-2533-45c2-90ec-50dca47660c7")
 	)
-	(label "BUT_POS4"
-		(at 273.05 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48a40de3-e568-4216-bb3a-ef6f90b3ceb0")
-	)
 	(label "nRST"
 		(at 184.15 208.28 0)
 		(effects
@@ -10790,6 +10764,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a72f442-31a2-48a6-8d4d-240d7baab265")
+	)
+	(label "POS1"
+		(at 233.68 54.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ea7ef17-3ba6-4037-975e-aea65666d1c4")
 	)
 	(label "STEP"
 		(at 323.85 80.01 0)
@@ -10810,6 +10794,16 @@
 			(justify left bottom)
 		)
 		(uuid "54e89eab-5d72-4d42-be00-83fcb973d764")
+	)
+	(label "BUT_POS2"
+		(at 179.07 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "571fe1ea-a0d8-40b7-a730-493ffad8de6f")
 	)
 	(label "USB_D-"
 		(at 257.81 175.26 0)
@@ -10841,6 +10835,26 @@
 		)
 		(uuid "6203f20a-022a-4405-bc45-075fa3c4c15e")
 	)
+	(label "BUT_POS2"
+		(at 237.49 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6493ece3-82c6-4231-8894-81555740527a")
+	)
+	(label "POS3"
+		(at 210.82 54.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6510b1b5-b755-4b3c-bfa5-9affff772289")
+	)
 	(label "BOUT1"
 		(at 365.76 101.6 0)
 		(effects
@@ -10850,6 +10864,16 @@
 			(justify left bottom)
 		)
 		(uuid "672acfbf-9dee-4d8a-9e2a-1eff7fd0a772")
+	)
+	(label "POS1"
+		(at 182.88 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6988d045-7c27-45f7-9ce2-7ccc1edb2042")
 	)
 	(label "MP6602_ENBL"
 		(at 322.58 111.76 0)
@@ -10871,16 +10895,6 @@
 		)
 		(uuid "6d8146fa-d4b4-4f79-9cff-323100412a10")
 	)
-	(label "MP6602_ENBL"
-		(at 175.26 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e3d90dd-e48f-4d8a-85ed-53c6ac95f9fe")
-	)
 	(label "MOSI"
 		(at 314.96 93.98 0)
 		(effects
@@ -10890,6 +10904,26 @@
 			(justify left bottom)
 		)
 		(uuid "71f494d4-55c8-4e00-a3e2-ccd03e9d1d37")
+	)
+	(label "BUT_POS4"
+		(at 179.07 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "759c82b5-3f07-4ab3-ae63-3d321282b714")
+	)
+	(label "BUT_POS1"
+		(at 179.07 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76c0f377-3758-4af2-a1c7-b12cce9a822a")
 	)
 	(label "USB_D+"
 		(at 257.81 168.91 0)
@@ -10901,16 +10935,6 @@
 		)
 		(uuid "78519a76-9ec3-423c-88f0-11105fde42d4")
 	)
-	(label "MP6602_nFAULT"
-		(at 173.99 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "790c9438-17c6-441f-8024-077b93104058")
-	)
 	(label "MP6602_SLEEP"
 		(at 317.5 123.19 0)
 		(effects
@@ -10920,6 +10944,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ab46539-e286-40d8-a6cd-8f966db374b6")
+	)
+	(label "MP6602_nRST"
+		(at 176.53 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f485c76-6dff-48e2-aba7-3c112459272a")
 	)
 	(label "MISO"
 		(at 99.06 207.01 0)
@@ -10941,36 +10975,6 @@
 		)
 		(uuid "8105ccf2-b71d-4c61-a49a-186723155446")
 	)
-	(label "POS4"
-		(at 233.68 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82118644-3734-4797-8248-c70c1b243ef3")
-	)
-	(label "POS2"
-		(at 182.88 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84dbbed8-f397-4f87-8248-935b09c7709e")
-	)
-	(label "POS1"
-		(at 199.39 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89dab455-58d0-4962-9de3-8eaa3aec726e")
-	)
 	(label "LMT_SW"
 		(at 388.62 182.88 0)
 		(effects
@@ -10981,26 +10985,6 @@
 		)
 		(uuid "8b9690fa-e1e0-4b93-a5c7-e1963d29fc8e")
 	)
-	(label "ENC_CHB"
-		(at 180.34 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ed238d2-1f13-44e5-af6a-4aa46945be12")
-	)
-	(label "POS3"
-		(at 182.88 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f32d918-8328-4fba-822a-873ab4d501cd")
-	)
 	(label "SCLK"
 		(at 314.96 91.44 0)
 		(effects
@@ -11010,16 +10994,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f5114c8-b712-4943-b086-2d3721ad9801")
-	)
-	(label "MP6602_SLEEP"
-		(at 175.26 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95c2b393-ead7-483b-aa17-c07b5a243401")
 	)
 	(label "CP_nRST"
 		(at 180.34 184.15 0)
@@ -11041,35 +11015,35 @@
 		)
 		(uuid "9aeb5f05-4244-4c5c-9116-35dd5a16cba4")
 	)
-	(label "ENC_CHA"
-		(at 180.34 139.7 0)
+	(label "MP6602_ENBL"
+		(at 176.53 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a0b9dcdd-0cc7-48cc-93a0-c0ea114e1ff9")
-	)
-	(label "BUT_POS2"
-		(at 179.07 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b12cd6e8-98cb-41f7-bb16-186c49d8f605")
+		(uuid "a0176ed4-0b77-49e6-bb4e-615025ef2e76")
 	)
 	(label "POS4"
-		(at 182.88 163.83 0)
+		(at 199.39 54.61 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b7aa9bdb-51d6-4717-9eac-b8e73e3daff1")
+		(uuid "a48e98e0-d01b-436f-a478-d5698722504a")
+	)
+	(label "BUT_POS4"
+		(at 168.91 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a548186d-81e0-47c3-9230-7ab90c658a76")
 	)
 	(label "CP_TXD"
 		(at 71.12 193.04 0)
@@ -11091,16 +11065,6 @@
 		)
 		(uuid "c7d935a7-02da-47ec-8a31-caa99e833db5")
 	)
-	(label "BUT_POS1"
-		(at 179.07 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c99d4337-8ddc-4582-a343-22364c03b7dd")
-	)
 	(label "USB_D-"
 		(at 323.85 189.23 0)
 		(effects
@@ -11111,28 +11075,8 @@
 		)
 		(uuid "caa0195a-9781-44f7-be2a-440bdda1c657")
 	)
-	(label "POS1"
-		(at 182.88 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd5054e1-5ce5-4d24-9a55-3776366d9a4d")
-	)
-	(label "BUT_POS3"
-		(at 101.6 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d22320df-c848-4814-bfea-b05038be3f19")
-	)
 	(label "AOUT2"
-		(at 363.22 95.25 0)
+		(at 365.76 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11150,6 +11094,16 @@
 			(justify left bottom)
 		)
 		(uuid "d83b8221-93a5-4f3d-bfc3-b848a13e5bdc")
+	)
+	(label "BUT_POS3"
+		(at 179.07 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db8d1a76-a81d-444b-9056-c2e4dabf3b93")
 	)
 	(label "CP_RXD"
 		(at 354.33 168.91 0)
@@ -11171,16 +11125,6 @@
 		)
 		(uuid "de5bfb97-230b-498b-addf-d6df7ed0efac")
 	)
-	(label "POS3"
-		(at 222.25 54.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df58b4d7-f7b7-4f8e-9888-f43a35aaccbd")
-	)
 	(label "MISO"
 		(at 314.96 96.52 0)
 		(effects
@@ -11201,15 +11145,25 @@
 		)
 		(uuid "ebe12741-6660-45af-beac-16762814d204")
 	)
-	(label "MP6602_nRST"
-		(at 175.26 201.93 0)
+	(label "POS3"
+		(at 182.88 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f566415f-bf1d-48d2-8617-f054bde64cea")
+		(uuid "f26b4db2-3218-4362-a365-e08e9cc51f21")
+	)
+	(label "POS2"
+		(at 222.25 54.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5bc4a92-f6cd-45be-9089-35395075740f")
 	)
 	(label "USB_D+"
 		(at 101.6 162.56 0)
@@ -11220,6 +11174,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8b70afe-51d7-4c43-bd98-a26924622343")
+	)
+	(label "BUT_POS1"
+		(at 273.05 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9a97824-2bc1-4341-8a30-a8e4aed8f3dd")
 	)
 	(label "DIR"
 		(at 184.15 194.31 0)
@@ -11826,6 +11790,119 @@
 			(project "filter_actuator_rev1"
 				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "techne_capacitors:C_0402_1005Metric")
+		(at 365.76 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a3640e2-9105-4bda-97c4-3f8a9940add4")
+		(property "Reference" "C22"
+			(at 366.268 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 366.268 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "techne_capacitors:C_0402_1005Metric"
+			(at 365.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1UF 50V X5R 0402"
+			(at 365.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 365.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UMK105CBJ105MV-F"
+			(at 365.76 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 363.474 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47e8b57c-a478-4a26-9cff-237cdb37a941")
+		)
+		(pin "1"
+			(uuid "0ca8dc00-e4c3-449a-b7f1-6728d84ad96f")
+		)
+		(instances
+			(project "filter_actuator_rev1"
+				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13781,119 +13858,6 @@
 			(project "filter_actuator_rev1"
 				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "techne_capacitors:C_0805_2012Metric")
-		(at 355.6 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c56ae98-5c2a-4668-819e-6a6b337ed9c6")
-		(property "Reference" "C20"
-			(at 356.362 35.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 356.108 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "techne_capacitors:C_0805_2012Metric"
-			(at 355.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 355.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 355.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM21BR71H105KA03L"
-			(at 355.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 353.06 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f59cfc9-8641-411e-b4a6-97d97a80bf5d")
-		)
-		(pin "2"
-			(uuid "f8359ea8-8cc9-4028-b467-5f27370bd146")
-		)
-		(instances
-			(project "filter_actuator_rev1"
-				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23969,6 +23933,119 @@
 		)
 	)
 	(symbol
+		(lib_id "techne_capacitors:C_0402_1005Metric")
+		(at 355.6 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5b38565-a930-4d5b-aee4-89fb25feb2e1")
+		(property "Reference" "C20"
+			(at 356.108 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 356.108 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "techne_capacitors:C_0402_1005Metric"
+			(at 355.6 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1UF 50V X5R 0402"
+			(at 355.6 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 355.6 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UMK105CBJ105MV-F"
+			(at 355.6 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 353.314 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b43cd16c-ebb9-4efe-a82e-06783b92a3a2")
+		)
+		(pin "1"
+			(uuid "e4cc0caa-4619-4816-b1de-17aaa004a339")
+		)
+		(instances
+			(project "filter_actuator_rev1"
+				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 93.98 0)
 		(unit 1)
@@ -24384,119 +24461,6 @@
 			(project "filter_actuator_rev1"
 				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "techne_capacitors:C_0805_2012Metric")
-		(at 365.76 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eca87bbf-c8b2-458f-bce7-237515fa8147")
-		(property "Reference" "C22"
-			(at 366.522 35.052 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 366.268 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "techne_capacitors:C_0805_2012Metric"
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM21BR71H105KA03L"
-			(at 365.76 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 363.22 38.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e69a1f07-64d5-4dbc-b2e2-ad03ae6f978f")
-		)
-		(pin "2"
-			(uuid "f1f98149-fd7e-4284-b6a6-9df4aa3aa061")
-		)
-		(instances
-			(project "filter_actuator_rev1"
-				(path "/2f2eb10a-4abc-4cd2-8c9a-ef41d6375f0c"
-					(reference "C22")
 					(unit 1)
 				)
 			)
