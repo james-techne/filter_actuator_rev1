@@ -6295,6 +6295,16 @@
 		)
 		(uuid "09c43dc7-ea66-44de-8704-c2bcd77e5170")
 	)
+	(text "Input: 30V max input"
+		(exclude_from_sim no)
+		(at 96.774 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "212e3f9d-db25-4f3b-9488-b79c953700af")
+	)
 	(text "BACK"
 		(exclude_from_sim no)
 		(at 377.444 228.346 0)

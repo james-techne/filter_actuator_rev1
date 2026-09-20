@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.127,
-          "min_island_area": 0.0013161349,
-          "min_thickness": 0.127,
+          "min_clearance": 0.2032,
+          "min_island_area": 10.0,
+          "min_thickness": 0.2032,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -81,7 +81,28 @@
           "width": 0.2286
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|109185000|67925000|62c503de-6097-4430-add6-dcd1e1793b18|e6db9fd0-86c8-4e25-b5ac-31a244cf9baa",
+          ""
+        ],
+        [
+          "courtyards_overlap|68675000|67935000|63c9b5f3-9983-4673-88fd-8108294aa882|f89e1551-8f09-495e-93cd-6e19147c0c1b",
+          ""
+        ],
+        [
+          "courtyards_overlap|79185000|67925000|1f4b12fe-1d57-448a-b2cf-d9b36eafcd9f|34a157ae-5c11-4f74-adb0-266026fdb29c",
+          ""
+        ],
+        [
+          "courtyards_overlap|89185000|67925000|3128864d-f0ae-4157-beca-b4fa3eab23b0|d5404abc-a62b-4bec-93f8-4fef9390c619",
+          ""
+        ],
+        [
+          "courtyards_overlap|99185000|67925000|303a9981-862f-42cf-b3f8-0e810ad89f48|927e7129-393d-4591-8aa7-02c8933d4e3c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -588,7 +609,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbs/",
       "specctra_dsn": "",
       "vrml": ""
     },
